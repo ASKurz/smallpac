@@ -4,8 +4,11 @@
 \alias{standardize}
 \title{Standardize a numeric vector}
 \usage{
-standardize(x, center_only = FALSE)
+standardize(x)
+}
+\arguments{
+\item{x}{A numeric vector.}
 }
 \description{
-Standardize a numeric vector
+For a numeric vector, center the values such that the mean is zero, and scale such that the standard deviation is one.
 }

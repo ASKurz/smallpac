@@ -4,6 +4,9 @@
 #'
 #' @param x A numeric vector.
 #'
+#' @examples
+#' standardize(100:104)
+#'
 #' @export
 standardize <- function(x) {
 
