@@ -1,3 +1,3 @@
-# smallpac (development version)
+# Version 0.0.0.9000
 
-* Initial CRAN submission.
+* First version of the package
