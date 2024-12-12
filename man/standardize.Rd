@@ -12,3 +12,7 @@ standardize(x)
 \description{
 For a numeric vector, center the values such that the mean is zero, and scale such that the standard deviation is one.
 }
+\examples{
+standardize(100:104)
+
+}
