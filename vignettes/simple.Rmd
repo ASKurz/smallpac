@@ -1,0 +1,27 @@
+---
+title: "simple"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{simple}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(smallpac)
+```
+
+This is how to standardize a vector.
+
+```{r}
+standardize(100:103)
+```
+
+
